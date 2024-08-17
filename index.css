@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url("https://res.cloudinary.com/dtkhoengd/image/upload/v1723864557/background_sqaoo7.jpg"); /*here i used direct cloudinary pictures URL*/
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.search-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.heading-main{
+    text-align:left;
+    font-family: "Roboto";
+}
+.paragraph{
+    text-align:left;
+    font-family: "Roboto";
+}
+.package-button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.search-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.destination-label {
+    display: block;
+    text-align:left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.destination-label input {
+    margin-top: 5px;
+}
+.star-rating{
+    font-size:10px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
